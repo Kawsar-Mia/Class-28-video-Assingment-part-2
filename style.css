@@ -1,0 +1,247 @@
+body,h1,h2,h3,h4,h5,h6,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header Section */
+.kawser-mia .navbar-brand{
+    font-size: 25px;
+    font-weight: 600;
+}
+.kawser-mia span{
+  display: inline-block;
+  background: #647de9;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 30px;
+  position: relative;
+  top: 3px;  
+}
+.kawser-menu .nav-link{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+/* Slider Section */
+.slider-section{
+    background: url(./img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.205);
+    z-index: -1;
+}
+.slider-caption h4{
+    margin-bottom: 35px;
+}
+.slider-caption h2{
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.slider-caption .btn{
+    background: #5ba533;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.slider-caption .form-control{
+    padding: 15px 18px;
+}
+
+.counter-number-item .h2{
+    font-size: 50px;
+}
+
+/* About-section */
+.about-section{
+    background:#f7f9ff;
+}
+.about-text-left{
+    margin-top: 70px;
+}
+.about-text-left .lead{
+    font-size: 25px;
+    line-height: 2.7rem;
+}
+
+/* Future Section */
+.future-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(0, 0, 0, 0.205);
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-text-sec{
+    width: 60%;
+    padding: 25px;
+    margin-top: 50px;
+}
+.left-img-sec img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+
+/* Portfolio CSS */
+.protfolio-item{}
+.protfolio-item a{
+    position: relative;
+    display: block;
+}
+.protfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #758cf16e;
+    opacity: 0;
+    visibility: hidden;
+
+    transition: .5s;
+}
+.protfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* pricinng Css */
+.min-section-bg{
+    background: #f7f9ff;
+}
+
+.pricing-item{
+background: #fff;
+padding: 50px;
+box-shadow: 2.5px 4.33px 30px 0 rgba(0, 0, 0, 0.205);
+border-radius: 5px;
+}
+.pricing-item h1{}
+.pricing-item h5{}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+}
+.pricing-item ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+}
+.pricing-item ul li span{
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 25px;
+    width: 40px;
+    display: inline-block;
+}
+
+.pricing-button{}
+.pricing-button a{
+    border-color: #657be0;
+    border-width: 2px;
+    color: #647de9;
+    padding: 14px 30px;
+    font-size: 22px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(0, 0, 0, 0.205);
+}
+
+/* Testimonial CSS */
+.another-info{
+    width: 250px;
+    margin: auto;
+}
+.another-info img{
+    width: 85px;
+    margin-right: 18px;
+}
+.user-details{
+    /* text-align: left;
+    position: relative;
+    top: 10px; */
+}
+
+/* About section Css */
+.about-item{
+    margin-top: 90px;
+}
+.about-item .card{}
+.about-item .card img{
+    width: 130px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+
+/* Contact Us Css */
+.contact-from .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(0, 0, 0, 0.205);
+    padding: 40px;
+}
+
+/* Slider Css */
+.slider-img{
+    max-width: 100%;
+}
+.slider-btn-1{
+    color: #65e080;
+    padding: 20px 30px;
+    background: #fff;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+
+    transition: .5s;
+}
+.slider-btn-1:hover{
+    background: #5ba533;
+    color: #fff;
+}
+.slider-btn-2{
+    color: #fff;
+    padding: 20px 30px;
+    background: #5ba533;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+
+    transition: .5s;
+}
+.slider-btn-2:hover{
+    background: #000;
+    color: #fff;
+}
+
+     /* Responsive CSS */
+     @media (max-width:992px) {
+        .about-text-left{
+            margin-top: 0;
+        }
+     }
